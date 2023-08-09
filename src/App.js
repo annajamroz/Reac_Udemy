@@ -7,6 +7,8 @@ import AddSign from './components/Aplikacja Add sign/AddSign';
 import Input from './components/Input/Input';
 import Message from './components/Przycisk pokaż ukryj/Message';
 import Counter from './components/Zliczanie klikniec/Counter';
+import ChechboxAgeConfirmation from './Checkbox/Checkbox';
+import TicketShop from './Checkbox/TicketShop';
 
 
 
@@ -30,6 +32,12 @@ function App() {
       
       <h2>**********Zliczanie klikniec**********</h2>
       <Counter result={5}/>
+
+      <h2>**********Checkbox**********</h2>
+      <ChechboxAgeConfirmation/>
+
+       <h2>**********TicketShop**********</h2>
+      <TicketShop/>
     </div>
   );
 }

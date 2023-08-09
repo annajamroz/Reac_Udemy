@@ -1,4 +1,6 @@
 import React from "react";
+import MathButton from "./MathButton";
+import ResultPanel from "./ResultPanel";
 
 export default class Counter extends React.Component {
 
